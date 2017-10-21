@@ -9,13 +9,13 @@ with codecs.open(path.join(PATH, 'README.rst'), encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
 
 setup(
-    name='django-experiments',
-    version='1.2.0',
+    name='gear-experiments',
+    version='1.2.1',
     description='Python Django AB Testing Framework',
     long_description=LONG_DESCRIPTION,
-    author='Mixcloud',
-    author_email='technical@mixcloud.com',
-    url='https://github.com/mixcloud/django-experiments',
+    author='InsipidPoint',
+    author_email='shiwei@chilunyc.com',
+    url='https://github.com/InsipidPoint/django-experiments',
     packages=find_packages(exclude=["example_project"]),
     include_package_data=True,
     license='MIT',
